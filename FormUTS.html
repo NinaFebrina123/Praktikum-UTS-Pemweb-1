@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form Booking Ruangan</title>
+  
+</head>
+<body>
+ 
+     <fieldset> 
+         <legend>Booking Ruangan</legend> 
+ <table>
+    <tr>
+      <td>
+        <label for="nik">Nama Peminjam :</label>
+      </td>
+      <td>
+        <input type="number" name="namapeminjam" id="namapeminjam">
+      </td>
+    </tr>
+  
+<tr>
+      <td>
+        <label for="namaruangan
+        ">Nama Ruangan :</label>
+      </td>
+      <td>
+       <select name="status" id="status">
+         <option value="">Aula Cendrawasih</option>
+      </td>
+   
+  <tr>
+      <td>
+        <label for="deskripsikegiatan">Deskripsi Kegiatan :</label>
+      </td>
+      <td>
+        <textarea name="deskripsikegiatan" id="deskripsikegiatan"cols="30" rows="4"></textarea>
+      </td>
+    </tr>
+<tr>
+      <td>
+        <label for="fasilitastambahan">Fasilitas Tambahan :</label>
+        
+         <input type="checkbox" name="soundsystem[]" value="soundsystem"> Sound System
+         
+         <input type="checkbox" name="wifi[]" value="wifi"> Wifi
+        
+         <input type="checkbox" name="layarbesar[]" value="layarbesar"> Layar Besar
+       
+         <input type="checkbox" name="katering[]" value="katering"> Katering
+      </td>
+<tr>
+      <td>
+        <label for="tanggalpinjam">Tanggal Pinjam :</label>
+      </td>
+      <td>
+        <input type="date" name="tanggalpinjam" id="tanggalpinjam">
+      </td>
+    </tr>
+<tr>
+      <td>
+        <label for="kontakperson">Kontak Person :</label>
+      </td>
+      <td>
+        <input type="text" name="kontakperson" id="kontakperson">
+      </td>
+    </tr>
+<tr>
+      <td>
+        <label for="telpon/hp">Telpon / Hp :</label>
+      </td>
+      <td>
+        <input type="text" name="telpon/hp" id="telpon/hp">
+      </td>
+    </tr>
+<tr>
+      <td>
+        <label for="email">Email  :</label>
+      </td>
+      <td>
+        <input type="text" name="email" id="email">
+      </td>
+    </tr>
+      
+
+    <tr>
+      <td></td>
+      <td>
+        <button type="submit" value="btn-blue">Simpan</button></button>
+        <button type="reset" value="btn-red">Reset</button>
+      </td>
+    </tr>
+    
+  </table>
+  
+</body>
+</html>
